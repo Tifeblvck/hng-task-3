@@ -1,0 +1,121 @@
+body{margin:0;font-family:roboto;-webkit-print-color-adjust:exact;}
+@page{size:A4;margin:0mm;}
+
+/*--------------------------------------*/
+@font-face{font-family:oswald;
+src:url("oswald-regular.ttf");}
+@font-face{font-family:roboto;
+src:url("roboto-regular.ttf");}
+
+/*--------------divs--------------------*/
+#main{float:left;width:61%;}
+#side{float:right;width:27%;background:#E6E4E3;}
+#main,#side{height:100%;padding:3%;}
+
+/*--------------headers-----------------*/
+h1{font-family:oswald;font-size:5em;margin:0;color:#E6E4E3;}
+h1 span{color:red;}
+h2{font-weight:bold;}
+h3{font-family:oswald;text-align:center;}
+h4,p{margin:0;}
+.date{float:right;}
+.location{color:#A19F9E;}
+
+th{text-align:left;}
+
+
+img{display:block;margin:auto;border-radius:100px;}
+
+/*------------horizontal line----------*/
+
+h3{
+overflow:hidden;
+text-align:center;
+}
+h3:before,h3:after{
+	background-color:red;
+	content:"";
+	display:inline-block;
+	height:3px;
+	position:relative;
+	vertical-align:middle;
+	width: 50%;
+}
+h3:before{right:0.5em;margin-left:-50%;}
+h3:after{left:0.5em;margin-right:-50%;}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rxycvo');
+  src:  url('fonts/icomoon.eot?rxycvo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rxycvo') format('truetype'),
+    url('fonts/icomoon.woff?rxycvo') format('woff'),
+    url('fonts/icomoon.svg?rxycvo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color:red;
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-books:before {
+  content: "\e920";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-flag:before {
+  content: "\e9cc";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
